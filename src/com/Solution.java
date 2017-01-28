@@ -70,6 +70,13 @@ public class Solution {
       return str;
 
   }
+  /**
+   * 
+   * @param alpha
+   * @return
+   * This method takes a character Array and creates every possible combination of
+   * two letters with it. And adds those values to a HashSet
+   */
   
   private static HashSet<String> pairs(char[] alpha){
 		HashSet<String> combos = new HashSet<String>();
