@@ -47,6 +47,14 @@ public class Solution {
         System.out.println(max);
     }
   
+  /**
+   * 
+   * @param combo
+   * @param input
+   * This method takes in a two letters in the String Combo
+   * Then it iterates through the input and only the two characters that are in 
+   * in Input get added to our String Array
+   */
   private static String createString(String combo, String input){
       char[] ab = combo.toCharArray();
       char a = ab[0];
